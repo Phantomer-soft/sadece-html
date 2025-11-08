@@ -1,0 +1,71 @@
+Timestamp: 2024-10-26 01:00:05 | IP: 192.168.1.101 | User: jane.doe | Action/Path: /hr/employee_records.json | Event: INFO
+Timestamp: 2024-10-26 01:00:15 | IP: 192.168.1.50 | User: system_db | Action/Path: Database query: SELECT * FROM projects WHERE status='completed' | Event: DEBUG
+Timestamp: 2024-10-26 01:01:20 | IP: 192.168.1.200 | User: system_update_bot | Action/Path: Initiated software update on server_03 | Event: INFO
+Timestamp: 2024-10-26 01:02:00 | IP: 192.168.1.105 | User: john.doe | Action/Path: /marketing/campaign_reports.pdf | Event: INFO
+Timestamp: 2024-10-26 01:03:10 | IP: 203.0.113.12 | User: root | Action/Path: Failed SSH login attempt (5 times) | Event: WARNING
+Timestamp: 2024-10-26 01:03:11 | IP: 192.168.1.1 | User: internal_firewall | Action/Path: Automated response: IP 203.0.113.12 added to block list due to multiple failed login attempts. | Event: INFO
+Timestamp: 2024-10-26 01:03:15 | IP: 192.168.1.110 | User: alice.smith | Action/Path: Logged out | Event: INFO
+Timestamp: 2024-10-26 01:04:00 | IP: 192.168.1.108 | User: fmillers | Action/Path: Logged in | Event: INFO
+Timestamp: 2024-10-26 01:04:30 | IP: 192.168.1.108 | User: fmillers | Action/Path: /finance/q3_earnings.xlsx | Event: INFO
+Timestamp: 2024-10-26 01:05:00 | IP: 192.168.1.108 | User: fmillers | Action/Path: /hr/payroll_data_q2.csv | Event: INFO
+Timestamp: 2024-10-26 01:05:45 | IP: 192.168.1.201 | User: system_monitor | Action/Path: CPU usage at 35% on server_01 | Event: INFO
+Timestamp: 2024-10-26 01:06:10 | IP: 192.168.1.115 | User: robert.jones | Action/Path: /dev/source_code/module_A.zip | Event: INFO
+Timestamp: 2024-10-26 01:07:00 | IP: 192.168.1.1 | User: network_scanner | Action/Path: Network traffic scan completed. No anomalies detected. | Event: DEBUG
+Timestamp: 2024-10-26 01:08:20 | IP: 192.168.1.108 | User: fmillers | Action/Path: Created new directory '/tmp/temp_export/' on shared_drive | Event: INFO
+Timestamp: 2024-10-26 01:08:45 | IP: 192.168.1.108 | User: fmillers | Action/Path: Copied /sensitive/customer_list_full.sql to /tmp/temp_export/ | Event: INFO
+Timestamp: 2024-10-26 01:09:10 | IP: 192.168.1.108 | User: fmillers | Action/Path: Copied /projects/confidential_project_X.rar to /tmp/temp_export/ | Event: INFO
+Timestamp: 2024-10-26 01:09:40 | IP: 192.168.1.108 | User: fmillers | Action/Path: Copied /finance/financial_forecast_2024.pptx to /tmp/temp_export/ | Event: INFO
+Timestamp: 2024-10-26 01:10:00 | IP: 192.168.1.108 | User: fmillers | Action/Path: File transfer completed from /tmp/temp_export/ to external_IP: 85.236.112.55 via SFTP. Total size: ~500MB | Event: INFO
+Timestamp: 2024-10-26 01:10:05 | IP: 192.168.1.108 | User: fmillers | Action/Path: Logged out | Event: INFO
+Timestamp: 2024-10-26 01:10:30 | IP: 192.168.1.101 | User: jane.doe | Action/Path: /hr/employee_handbook.pdf | Event: INFO
+Timestamp: 2024-10-26 01:12:00 | IP: 192.168.1.203 | User: security_scanner_bot | Action/Path: Completed daily scan on server_02. No critical vulnerabilities found. | Event: INFO
+Timestamp: 2024-10-26 01:15:32 | IP: 192.168.1.10 | User: admin_svc | Action/Path: Accessed sensitive_data_archive.zip | Event: INFO
+Timestamp: 2024-10-26 01:15:35 | IP: 192.168.1.1 | User: network_security | Action/Path: Unusual outbound data transfer to external_IP: 85.236.112.55 detected. Further investigation required. | Event: ALERT
+Timestamp: 2024-10-26 01:15:36 | IP: 10.0.0.5 | User: system_user | Action/Path: Initiated logout | Event: INFO
+Timestamp: 2024-10-26 01:15:38 | IP: 172.16.0.12 | User: john.doe | Action/Path: Multiple failed login attempts | Event: WARNING
+Timestamp: 2024-10-26 01:16:00 | IP: 192.168.1.15 | User: jane.smith | Action/Path: Logged in | Event: INFO
+Timestamp: 2024-10-26 01:17:05 | IP: 192.168.1.120 | User: developer_01 | Action/Path: /dev/project_files/feature_A.js | Event: INFO
+Timestamp: 2024-10-26 01:18:10 | IP: 192.168.1.100 | User: dns_resolver | Action/Path: DNS query for 'external-backup-server.com' | Event: DEBUG
+Timestamp: 2024-10-26 01:20:00 | IP: 192.168.1.105 | User: john.doe | Action/Path: /public/company_news.html | Event: INFO
+Timestamp: 2024-10-26 01:22:30 | IP: 192.168.1.130 | User: workstation_7_admin | Action/Path: Unexpected process 'cryptominer.exe' detected on workstation_7. Alerting admin. | Event: WARNING
+Timestamp: 2024-10-26 01:22:32 | IP: 192.168.1.5 | User: security_team | Action/Path: Incident ticket #INC20241026-002 created. Security team notified for workstation compromise. | Event: INFO
+Timestamp: 2024-10-26 01:25:00 | IP: 192.168.1.112 | User: maria.gonzalez | Action/Path: /support/faq_database.txt | Event: INFO
+Timestamp: 2024-10-26 01:27:15 | IP: 192.168.1.254 | User: internal_firewall | Action/Path: Heartbeat from internal firewall. Status: OK. | Event: DEBUG
+Timestamp: 2024-10-26 01:30:00 | IP: 192.168.1.10 | User: admin_svc | Action/Path: Performed system backup on DB_server_01 | Event: INFO
+Timestamp: 2024-10-26 01:32:40 | IP: 192.168.1.115 | User: robert.jones | Action/Path: Modified /dev/source_code/module_A.zip | Event: INFO
+Timestamp: 2024-10-26 01:35:00 | IP: 192.168.1.101 | User: jane.doe | Action/Path: /hr/performance_reviews_2023.pdf | Event: INFO
+Timestamp: 2024-10-26 01:37:30 | IP: 192.168.1.50 | User: system_auth | Action/Path: API call: get_user_permissions for 'fmillers' | Event: DEBUG
+Timestamp: 2024-10-26 01:40:00 | IP: 192.168.1.200 | User: system_health_check | Action/Path: Completed on all servers. | Event: INFO
+Timestamp: 2024-10-26 01:41:15 | IP: 192.168.1.130 | User: endpoint_security_system | Action/Path: Automated response: Workstation_7 isolated from network. Full system scan initiated. | Event: ALERT
+Timestamp: 2024-10-26 01:42:10 | IP: 192.168.1.103 | User: marketing_analyst | Action/Path: /marketing/competitor_analysis.xlsx | Event: INFO
+Timestamp: 2024-10-26 01:45:00 | IP: 15.236.4.88 | User: guest_account | Action/Path: Login attempt from unrecognized geo-location (Brazil). Blocked. | Event: WARNING
+Timestamp: 2024-10-26 01:47:30 | IP: 192.168.1.125 | User: qa_tester_01 | Action/Path: /test_environments/test_results_v2.log | Event: INFO
+Timestamp: 2024-10-26 01:50:00 | IP: 192.168.1.102 | User: finance_head | Action/Path: Logged in | Event: INFO
+Timestamp: 2024-10-26 01:52:15 | IP: 192.168.1.1 | User: network_monitor | Action/Path: Network latency check to external CDN. Result: 25ms. | Event: DEBUG
+Timestamp: 2024-10-26 01:55:00 | IP: 192.168.1.204 | User: system_bot | Action/Path: Updated antivirus definitions. | Event: INFO
+Timestamp: 2024-10-26 02:00:00 | IP: 192.168.1.205 | User: employee_portal_svc | Action/Path: /intranet/news_feed.xml | Event: INFO
+Timestamp: 2024-10-26 02:05:00 | IP: 192.168.1.206 | User: support_team_bot | Action/Path: Ran diagnostic on network connectivity. | Event: INFO
+Timestamp: 2024-10-26 02:07:10 | IP: 192.168.1.10 | User: admin_svc | Action/Path: Accessed /admin/audit_logs_backup.zip | Event: INFO
+Timestamp: 2024-10-26 02:10:00 | IP: 192.168.1.207 | User: system_integrity_check | Action/Path: Initiated daily scan. | Event: INFO
+Timestamp: 2024-10-26 02:12:00 | IP: 192.168.1.103 | User: hr_manager | Action/Path: /hr/employee_contracts_current.xlsx | Event: INFO
+Timestamp: 2024-10-26 02:15:10 | IP: 192.168.1.103 | User: hr_manager | Action/Path: /hr/benefits_summary_2024.pdf | Event: INFO
+Timestamp: 2024-10-26 02:15:45 | IP: 192.168.1.50 | User: system_db | Action/Path: Database health check: OK | Event: DEBUG
+Timestamp: 2024-10-26 02:16:20 | IP: 192.168.1.125 | User: qa_tester_01 | Action/Path: Logged in | Event: INFO
+Timestamp: 2024-10-26 02:17:00 | IP: 192.168.1.1 | User: web_server_01 | Action/Path: Web server health check passed. | Event: DEBUG
+Timestamp: 2024-10-26 02:20:10 | IP: 192.168.1.126 | User: qa_tester_02 | Action/Path: /test_environments/daily_build_logs.txt | Event: INFO
+Timestamp: 2024-10-26 02:22:30 | IP: 192.168.1.10 | User: security_analyst | Action/Path: Reviewed firewall logs. No new critical alerts. | Event: INFO
+Timestamp: 2024-10-26 02:25:00 | IP: 192.168.1.10 | User: IT_support | Action/Path: Connected to workstation_5 via remote desktop. | Event: INFO
+Timestamp: 2024-10-26 02:28:15 | IP: 192.168.1.121 | User: developer_03 | Action/Path: Pushed code to /dev/source_code/module_B.git | Event: INFO
+Timestamp: 2024-10-26 02:30:00 | IP: 192.168.1.208 | User: system_backup_svc | Action/Path: Initiated incremental backup of shared_drive. | Event: INFO
+Timestamp: 2024-10-26 02:33:00 | IP: 192.168.1.10 | User: admin_svc | Action/Path: Reset password for 'guest_user'. | Event: INFO
+Timestamp: 2024-10-26 02:35:00 | IP: 192.168.1.118 | User: data_scientist | Action/Path: /research/statistical_models.py | Event: INFO
+Timestamp: 2024-10-26 02:37:45 | IP: 192.168.1.50 | User: db_cluster | Action/Path: Database connection pool usage: 75%. | Event: DEBUG
+Timestamp: 2024-10-26 02:40:00 | IP: 192.168.1.1 | User: network_monitor | Action/Path: Reported stable network performance. | Event: INFO
+Timestamp: 2024-10-26 02:42:30 | IP: 192.168.1.209 | User: system_firmware_wupdate | Action/Path: Completed on network_router_01. | Event: INFO
+Timestamp: 2024-10-26 02:45:00 | IP: 192.168.1.104 | User: hr_assistant | Action/Path: /hr/onboarding_documents.zip | Event: INFO
+Timestamp: 2024-10-26 02:47:10 | IP: 192.168.1.1 | User: web_server_01 | Action/Path: Cache flush initiated for web_server_01. | Event: DEBUG
+Timestamp: 2024-10-26 02:50:00 | IP: 192.168.1.109 | User: compliance_officer | Action/Path: /legal/nda_templates.docx | Event: INFO
+Timestamp: 2024-10-26 02:52:30 | IP: 192.168.1.122 | User: developer_02 | Action/Path: Compiled /dev/project_files/feature_C.c | Event: INFO
+Timestamp: 2024-10-26 02:55:00 | IP: 192.168.1.210 | User: system_cron_job | Action/Path: Cleaned up temporary files. | Event: INFO
+Timestamp: 2024-10-26 02:57:15 | IP: 192.168.1.106 | User: project_manager | Action/Path: /projects/project_Z_status.pdf | Event: INFO
+Timestamp: 2024-10-26 02:59:00 | IP: 192.168.1.50 | User: system_auth | Action/Path: Active user sessions: 15. | Event: DEBUG
